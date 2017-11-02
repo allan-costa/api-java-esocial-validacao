@@ -21,24 +21,24 @@ O JSON possui o seguinte formato:
 }
 
 Campos: 
-Id Long: Obrigatório
-nmTrab String[70]: Nome do trabalhador
+Id Long: Obrigatório,
+nmTrab String[70]: Nome do trabalhador,
 sexo String[1]: 
-("M" / "F")
+("M" / "F"),
 racaCor Long: 
-(INDIGINA = 1, BRANCO = 2, NEGRA = 3, AMARELA = 4, PARDA = 5, NAOINFORMADO = 6)
+(INDIGINA = 1, BRANCO = 2, NEGRA = 3, AMARELA = 4, PARDA = 5, NAOINFORMADO = 6),
 estCiv Long: Estado civil
-(SOLTEIRO = 1, CASADO = 2, DIVORCIADO = 3, VIUVO = 4, UNIAOESTAVEL = 5, OUTROS = 6)
-nmSoc String[70]: Nome social
-dtNascto Date: Data de nascimento
-codMunicNascto String: Código do município de nascimento
-ufNascto: String[2]: Unidade da federação de nascimento
-paisNascto String[3]: País de nascimento
-paisNac String[3]: Nacionalidade
-nmPai String[70]: Nome do pai
-nmMae String[70]: Nome da mãe
+(SOLTEIRO = 1, CASADO = 2, DIVORCIADO = 3, VIUVO = 4, UNIAOESTAVEL = 5, OUTROS = 6),
+nmSoc String[70]: Nome social,
+dtNascto Date: Data de nascimento,
+codMunicNascto String: Código do município de nascimento,
+ufNascto: String[2]: Unidade da federação de nascimento,
+paisNascto String[3]: País de nascimento,
+paisNac String[3]: Nacionalidade,
+nmPai String[70]: Nome do pai,
+nmMae String[70]: Nome da mãe,
 trabAposent String: Trabalhador aposentado
-("S" / "N")
+("S" / "N"),
 grauInstr String: 
 01 – Analfabeto
 02 – Até a 4º série incompleta do ensino fundamental (antigo 1º grau ou primário), ou que tenha se alfabetizado sem ter freqüentado escola regular
@@ -51,15 +51,15 @@ grauInstr String:
 09 – Educação Superior completa
 10 – Pós Graduação
 11 – Mestrado
-12 - Doutorado
+12 - Doutorado.
 
 Orientações:
 1: É necessário que haja pelo menos uma pessoa no banco de dados com o ID a ser inserido pois é um pré requisito da funcionalidade de validação.
 
 Esse projeto faz uso das ferramentas SpringSTS e do banco de dados H2. http://www.h2database.com/html/main.html
-É recomendavel o uso do aplicativo POTSMAN para usar a API
+É recomendavel o uso do aplicativo POTSMAN para usar a API.
 Configurações H2 database:
-JDBC URL: jdbc:h2:mem:testdb
+JDBC URL: jdbc:h2:mem:testdb.
 Interface: http://localhost:8080/h2-console/
 
 
