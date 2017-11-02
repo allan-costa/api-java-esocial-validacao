@@ -2,9 +2,9 @@
 Está api tem a finalidade de validar dados de um trabalhador e salvar no banco de dados da empresa.
 O JSON possui o seguinte formato:
 
-1. {
-	l."id": 1, 
-	l."nmTrab": "NOME",
+{
+	"id": 1, 
+	"nmTrab": "NOME",
 	"sexo": "M/F",
 	"racaCor": 5,
 	"estCiv": 1..6,
