@@ -4,19 +4,19 @@ O JSON possui o seguinte formato:
 
 {
 	"id": 1, 
-	"nmTrab": "NOME",
-	"sexo": "M/F",
+	"nmTrab": "NOME DO TRABALHADOR",
+	"sexo": "M",
 	"racaCor": 5,
-	"estCiv": 1..6,
+	"estCiv": 1,
 	"grauInstr": "10",
-	"nmSoc": "ALLAN COSTA",
-	"dtNascto": "1988-11-17",
+	"nmSoc": "NOME SOCIAL",
+	"dtNascto": "AAAA-MM-DD",
 	"codMunicNascto": "0001",
 	"ufNascto": "GO",
 	"paisNascto": "BRA",
 	"paisNac": "BRA",
-	"nmPai": "EURIPEDES",
-	"nmMae": "MARIA",
+	"nmPai": "NOME PAI",
+	"nmMae": "NOME MÃE",
 	"trabAposent": "N"
 }
 
