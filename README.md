@@ -1,6 +1,6 @@
 # api-java-esocial-validacao
 Está api tem a finalidade de validar dados de um trabalhador e salvar no banco de dados da empresa.
-O JSON possui o seguinte formato:
+O JSON deve possuir o seguinte formato:
 
 {
 	"id": 1, 
